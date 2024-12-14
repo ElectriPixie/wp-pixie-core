@@ -4,7 +4,7 @@
  *Plugin URI:
  *Desciption:	Plugin to provive contact form to the pixie core theme
  *Version:	0.0.1
- *Author:	ElictiPixie
+ *Author:	ElictriPixie
  *Author URI:
  */
 

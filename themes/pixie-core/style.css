@@ -1,0 +1,256 @@
+/*
+  Theme Name: Pixie-Core-Test
+  Theme URI: 
+  Author: Pixie
+  Author URI: 
+  Description: Pixie Core Theme
+  Version: 0.0.2
+  License: 
+  License URI: 
+  Text Domain:
+  Tags: Pixie-Core
+*/
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 96%;
+  background-color: gray;
+}
+
+h1.pc-page-title{
+  text-align: center;
+}
+
+a.pc-page-title{
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration:none;
+  color: limegreen;
+  background: linear-gradient(darkgreen, black);
+}
+
+a.pc-page-title:hover{
+  color: darkgreen;
+  background: linear-gradient(green, limegreen);
+}
+div.pc-post-nav{
+  display: flex;
+  background-color: black;
+  border: 3px solid black;
+}
+
+div.pc-post-nav-prev{
+  width: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div.pc-post-nav-prev a{
+  text-decoration: none;
+  padding: 2px;
+  float: left;
+  color: magenta;
+}
+div.pc-post-nav-prev a:hover{
+  background-color: magenta;
+  color: black;
+}
+
+div.pc-post-nav-next{
+  width: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div.pc-post-nav-next a{
+  text-decoration: none;
+  float: right;
+  padding: 2px;
+  color: magenta;
+}
+div.pc-post-nav-next a:hover{
+  background-color: magenta;
+  color: black;
+}
+div.pc-post-container{
+  margin: 10px;
+  border: 3px solid black;
+  background-color: black;
+}
+
+h2.pc-post-title{
+  margin: 5px;
+}
+a.pc-post-title{
+  text-decoration: none;
+  margin: 10px;
+  color: magenta;
+}
+a.pc-post-title:hover{
+  background-color: magenta;
+  color: black;
+}
+div.pc-post-entry{
+  /* this border is to help with layout */
+  /* border: 3px solid lime; */
+  color: lime;
+  margin: 10px;
+  border: 2px solid limegreen;
+  padding: 25px;
+}
+
+div.pc-page-header{
+  /* this border is for layout testing */
+  /* border: 3px solid magenta; */
+  border: 2px solid black;
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: linear-gradient(darkgreen, black);
+}
+
+div.pc-page-menu{
+  /* this border is for layout testing */
+  /* border: 3px solid aqua; */
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: darkgreen;
+  background: linear-gradient(darkgreen, black);
+}
+ul.pc-page-menu{
+  /* border: 4px solid dimgrey; */
+  padding: 4px;
+  margin: 0px;
+}
+li.pc-menu{
+  border: 2px solid black;
+  background: linear-gradient(purple, black);
+  display: inline-block;
+  list-style: none;
+  padding: 2px;
+}
+
+li.pc-menu:hover{
+  border: 2px solid black;
+  background: linear-gradient(magenta, black);
+}
+
+li.pc-menu:hover a.pc-menu{
+  color: lime;
+}
+
+li.pc-menu:hover .pc-menu-sub{
+  display: block;
+}
+
+a.pc-menu{
+  text-decoration:none;
+  color: magenta;
+}
+
+ul.pc-menu-sub{
+  position: absolute;
+}
+
+li.pc-menu-sub{
+  background-color: green;
+  border: 2px solid purple;
+  display: none;
+  padding: 4px;
+}
+li.pc-menu-sub:hover{
+  border: 2px solid purple;
+  background: linear-gradient(green, limegreen);
+}
+
+a.pc-menu-sub{
+  text-decoration: none;
+}
+
+a.pc-menu-sub:link{
+  color: purple;
+}
+
+li.pc-menu-sub:hover a.pc-menu-sub{
+  color: magenta;
+}
+
+
+div.pc-page-area{
+  /*this border is to help with layout */
+  /*border: 3px solid lime; */
+  border: 3px solid green;
+  background-color: black;
+  display: flex;
+  /*height: 100%;*/
+  min-height: 100%;
+  margin: 10px;
+}
+
+div.pc-post-area{
+ /* this border is to help with layouts */
+ /*  border: 3px solid aqua; */
+  width: 80%;
+  border: 3px solid green;
+  background-color: dimgrey;
+  background: linear-gradient(dimgrey, grey);
+  margin: 10px;
+  padding 10px;
+}
+
+div.pc-page-sidebar{
+  /*this border is to help with layout */
+  /*border: 3px solid magenta; */
+  width: 240px;
+  padding: 10px; 
+  border: 3px solid green;
+  background-color: dimgrey;
+  background: linear-gradient(dimgrey, grey);
+  margin: 10px;
+}
+
+div.pc-page-footer{
+  text-align: center;
+  border: 2px solid black;
+  background-color: green;
+  margin: 10px;
+  background: linear-gradient(darkgreen, black);
+}
+
+div.pc-page-footer a{
+  color: magenta
+}
+
+div.pc-post-comments{
+  /* this border is to help with layout */
+  /* border: 3px solid lime; */
+  color: lime;
+  margin: 10px;
+  border: 2px solid limegreen;
+  padding: 25px;
+}
+
+div.pc-post-add-comment{
+  /* this border is to help with layout */
+  /* border: 3px solid lime; */
+  color: lime;
+  margin: 10px;
+  border: 2px solid limegreen;
+  padding: 25px;
+}
+
+.response, #respond, .comment-reply-title{
+  color: magenta
+}
+
+.comment-form-cookies-consent, .comment-notes, .comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment{
+  color: limegreen 
+}
